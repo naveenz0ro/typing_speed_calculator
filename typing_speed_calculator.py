@@ -22,7 +22,7 @@ class MainWindow:
         self.accuracy = 0
         self.time_start = 0
         self.time_end = 0
-        root.title("MiniProject")
+        root.title("Speed Testing")
         root.minsize(600, 500)
         for row in range(5):
             root.grid_rowconfigure(row, weight=1)
